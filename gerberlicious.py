@@ -1,20 +1,8 @@
 
 """
-    gerberlicious.py
-    A Python library for programmatically generating Gerber files.
+    gerberlicious, a python library for programmatically generating Gerber files
 
-    NOTES:
-    
-    TODO:
-    * Polarity for Shapes.
-    * More apertures.
-    * Circular interpolation (G02/G03).
-    * File attributes.
-
-    RESOURCES:
-    * http://www.artwork.com/gerber/appl2.htm
-    * https://www.ucamco.com/files/downloads/file/81/the_gerber_file_format_specification.pdf
-
+    Example script.
 """
 
 from gerberlicious.point import Point
