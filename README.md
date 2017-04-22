@@ -12,6 +12,6 @@ The project attempts to follow the [Gerber File Format Specification](https://ww
 
 - [ ] Polarity for drawables
 - [ ] More apertures
-- [ ] Circular interpolation (G02/G03).
+- [ ] Circular interpolation (G02/G03)
 - [ ] File attributes
 
