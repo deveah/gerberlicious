@@ -12,16 +12,16 @@ class SVGRenderer:
         self.layer = layer
         self.setup_canvas()
 
-    def setup_canvas(self):
+    def setup_canvas(self, horizontal_padding=100, vertical_padding=100, scale=100):
         self.min_x = math.inf
         self.min_y = math.inf
         self.max_x = 0
         self.max_y = 0
 
-        self.vertical_padding = 50
-        self.horizontal_padding = 50
+        self.horizontal_padding = horizontal_padding
+        self.vertical_padding = vertical_padding
 
-        self.scale = 100
+        self.scale = scale
 
         for shape in self.layer.shapes:
             if isinstance(shape, PointList):
