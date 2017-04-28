@@ -1,4 +1,5 @@
 
+import math
 from .drawable import PointList, ApertureFlash
 from .aperture import CircleAperture
 
@@ -12,8 +13,8 @@ class SVGRenderer:
         self.setup_canvas()
 
     def setup_canvas(self):
-        self.min_x = 10000   # FIXME
-        self.min_y = 10000   # FIXME
+        self.min_x = math.inf
+        self.min_y = math.inf
         self.max_x = 0
         self.max_y = 0
 
